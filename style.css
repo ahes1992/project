@@ -297,8 +297,9 @@ h5{
 .rows__2{
     display: flex;
     flex-direction: row;
+    gap:60px;
 }
-.rows__2>p{
+.p_text{
     max-width: 580px;
     width: 100%;
     min-height: 120px;
@@ -318,17 +319,34 @@ h5{
     line-height: 18px;
 }
 
-.colls_2{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+.colls__2{
+    /* max-width: 600px;
+    width: 100%;
+    min-height: 74px; */
+    margin-bottom:40px;
 }
 
-/* .but_1{
-    width: 34px;
-    height: 27px;
-    font-family: Open Sans;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 27px;
-} */
+.but_1{
+    width: Hug (116px)px;
+    height: Hug (51px)px;
+    padding: 12px 41px 12px 41px;
+    border: 1px 0px 0px 0px;
+}
+.e_mail{
+    max-width: 367px;
+    width: 100%;
+    min-height: 49px;
+    border-top:none;
+    border-left: none;
+    border-right: none;
+}
+
+.check_texts{
+    display: flex;
+    flex-direction: row;
+    gap:15px;
+    margin-top: 20px;
+}
+
+
+
