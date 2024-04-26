@@ -407,6 +407,15 @@ h5{
     margin-bottom: 150px;
 }
 
+.block_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+}
+
+
 @media screen and (max-width:1000px){
     .sec_1{
         grid-template-columns: repeat(2,1fr);
@@ -438,6 +447,7 @@ h5{
 
 .footset_1>ul>li{
     margin-top: 20px;
+    white-space: nowrap;
 }
 
 .footset_1>ul>li>a{
@@ -481,8 +491,7 @@ h5{
     display: flex;
     flex-direction: column;
     gap: 15px;
-    margin-top: 70px;
-    margin-left: -30px;
+    
 }
 
 .footset_33>span{
@@ -670,6 +679,7 @@ h5{
     .cont-footer{
         gap: 30px;
     }
+
 }
 
 
